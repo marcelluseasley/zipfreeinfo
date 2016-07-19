@@ -2,7 +2,7 @@
 Credits
 =======
 
-Development Lead 
+Development Lead
 ----------------
 
 * Marcellus Easley <marcellus.easley@gmail.com>
