@@ -4,7 +4,7 @@ Usage
 
 To use zipfreeinfo in a project::
 
-    import zipfreeinfo
+    from zipfreeinfo import zipfreeinfo
 
     zipfreeinfo.set_auth_credentials('your auth id','your auth token')
 
