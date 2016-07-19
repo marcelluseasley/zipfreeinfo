@@ -17,6 +17,8 @@ zipdata = collections.defaultdict(str)
 
 def set_auth_credentials(auth_id=None, auth_token=None):
     if auth_id is not None and auth_token is not None:
+        global AUTH_ID
+        global AUTH_TOKEN
         AUTH_ID = auth_id
         AUTH_TOKEN = auth_token
         return 0
@@ -71,7 +73,7 @@ def get_county_fips():
 def get_county_name():
     return zipdata['county_name']
 
-def get_longitutde():
+def get_longitude():
     return zipdata['longitude']
 
 def get_latitude():
