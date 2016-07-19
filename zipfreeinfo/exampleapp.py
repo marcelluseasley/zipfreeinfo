@@ -1,6 +1,5 @@
 import zipfreeinfo
 
-
 zipfreeinfo.set_auth_credentials('your auth id','your auth token')
 
 # Returns a dictionary with nested data structures containing zip code data
