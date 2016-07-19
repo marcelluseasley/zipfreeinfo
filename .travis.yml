@@ -21,6 +21,7 @@ deploy:
     condition: $TOXENV == py27
     repo: marcelluseasley/zipfreeinfo
     tags: true
+    branch: master
 env:
 - TOXENV=py35
 - TOXENV=py34
