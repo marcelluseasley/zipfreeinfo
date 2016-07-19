@@ -15,6 +15,13 @@ ZIP_LOOKUP_URL = 'https://us-zipcode.api.smartystreets.com/lookup?auth-id={}&aut
 
 zipdata = collections.defaultdict(str)
 
+def set_auth_credentials(auth_id=None, auth_token=None):
+    if auth_id is not None and auth_token is not None:
+        AUTH_ID = auth_id
+        AUTH_TOKEN = auth_token
+        return 0
+    return -1
+
 def get_zip_info(zip_code=None):
 
     if zip_code is None:
