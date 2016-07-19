@@ -23,12 +23,14 @@ def set_auth_credentials(auth_id=None, auth_token=None):
         AUTH_ID = auth_id
         AUTH_TOKEN = auth_token
         return 0
-    return -1
+    print("Function takes two arguments, auth_id and auth_token as strings")
+    return None
 
 def get_zip_info(zip_code=None):
     '''given a zip code, it returns a json dictionary object with nested data'''
     if zip_code is None:
-        return -1
+        print("Function takes zip_code as a string")
+        return None
 
     if AUTH_ID is None or AUTH_TOKEN is None:
         return -1
