@@ -16,6 +16,7 @@ ZIP_LOOKUP_URL = 'https://us-zipcode.api.smartystreets.com/lookup?auth-id={}&aut
 zipdata = collections.defaultdict(str)
 
 def set_auth_credentials(auth_id=None, auth_token=None):
+    '''sets the auth_id and auth_token globally'''
     if auth_id is not None and auth_token is not None:
         global AUTH_ID
         global AUTH_TOKEN
@@ -25,7 +26,7 @@ def set_auth_credentials(auth_id=None, auth_token=None):
     return -1
 
 def get_zip_info(zip_code=None):
-
+    '''given a zip code, it returns a json dictionary object with nested data'''
     if zip_code is None:
         return -1
 
@@ -56,27 +57,35 @@ def get_zip_info(zip_code=None):
 
 
 def get_zipcode():
+    '''returns the zip code as a string'''
     return zipdata['zip_code']
 
 def get_city():
+    '''returns the city'''
     return zipdata['city']
 
 def get_state():
+    '''returns the state'''
     return zipdata['state']
 
 def get_state_abbreviation():
+    '''returns the abbreviated state'''
     return zipdata['state_abbreviation']
 
 def get_county_fips():
+    '''returns the five-digit Federal Information Processing Standard (FIPS) code'''
     return zipdata['county_fips']
 
 def get_county_name():
+    '''returns the county name'''
     return zipdata['county_name']
 
 def get_longitude():
+    '''returns the longitude as a float'''
     return zipdata['longitude']
 
 def get_latitude():
+    '''returns the latitude as a float'''
     return zipdata['latitude']
 
 
