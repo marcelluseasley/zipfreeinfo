@@ -28,7 +28,7 @@ Provided a zip code, you are given information about that location.
 Features
 --------
 
-* TODO
+* Provides city, state, latitude/longitude data for a given zip code
 
 Credits
 ---------
