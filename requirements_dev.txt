@@ -9,4 +9,4 @@ Sphinx==1.4.5
 cryptography==1.4
 PyYAML==3.12
 pytest==3.0.0
-requests==2.18.4
+requests==2.19.0
