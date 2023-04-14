@@ -7,6 +7,6 @@ bumpversion==0.6.0
 tox==3.23.1
 coverage==5.5
 pytest==6.2.4
-cryptography==39.0.1
+cryptography==40.0.2
 PyYAML==5.4.1
 requests==2.25.1
