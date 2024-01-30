@@ -4,8 +4,8 @@ watchdog==2.1.2
 flake8==7.0.0
 wheel==0.38.1
 bumpversion==0.6.0
+coverage==7.4.1
 tox==4.12.1
-coverage==5.5
 pytest==6.2.4
 cryptography==41.0.3
 PyYAML==5.4.1
