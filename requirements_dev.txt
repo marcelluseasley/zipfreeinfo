@@ -2,7 +2,7 @@ pip==23.3
 Sphinx==4.0.2
 watchdog==2.1.2
 flake8==7.0.0
-wheel==0.38.1
+wheel==0.43.0
 bumpversion==0.6.0
 cryptography==42.0.2
 pytest==8.0.0
