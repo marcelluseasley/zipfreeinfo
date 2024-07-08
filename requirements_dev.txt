@@ -1,4 +1,4 @@
-pip==23.3
+pip==24.1.2
 Sphinx==4.0.2
 watchdog==2.1.2
 flake8==7.0.0
